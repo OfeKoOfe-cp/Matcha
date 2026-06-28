@@ -105,6 +105,11 @@ while true do
                                 root.Velocity = Vector3.new(0, 0, 0)
                                 pcall(function() root.AssemblyLinearVelocity = Vector3.new(0, 0, 0) end)
                                 set_noclip()
+                                if remaining % 30 == 0 then
+                                    pcall(function() keypress(32) end)
+                                    task.wait(0.1)
+                                    pcall(function() keyrelease(32) end)
+                                end
                                 task.wait()
                             end
                             cooldownUntil = 0
