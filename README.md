@@ -2,4 +2,5 @@
 My matcha scripts for various games
 
 ## Asylum Life
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/OfeKoOfe-cp/Matcha/refs/heads/main/Scripts/Asylum-Life.lua"))()```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OfeKoOfe-cp/Matcha/refs/heads/main/Scripts/Asylum-Life.lua"))()```
